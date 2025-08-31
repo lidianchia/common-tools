@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCM & HCF Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LCM & HCF Calculator</h1>
+            <p>Calculate the Least Common Multiple (LCM) and Highest Common Factor (HCF/GCD) of multiple numbers</p>
+        </header>
+        
+        <div class="calculator">
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="numbers">Enter Numbers:</label>
+                    <input type="text" id="numbers" placeholder="Enter positive integers separated by commas, e.g., 12, 18, 24" autocomplete="off">
+                    <div class="input-hint">Enter 2 or more positive integers separated by commas (,)</div>
+                </div>
+                
+                <button id="calculateBtn" onclick="calculate()">Calculate</button>
+                <button id="clearBtn" onclick="clearInputs()">Clear</button>
+            </div>
+            
+            <div id="inputDisplay" class="input-display"></div>
+            
+            <div class="results-section">
+                <div class="result-card">
+                    <h3>Highest Common Factor (HCF/GCD)</h3>
+                    <div id="hcfResult" class="result-value">-</div>
+                    <div id="hcfSteps" class="steps"></div>
+                </div>
+                
+                <div class="result-card">
+                    <h3>Least Common Multiple (LCM)</h3>
+                    <div id="lcmResult" class="result-value">-</div>
+                    <div id="lcmSteps" class="steps"></div>
+                </div>
+            </div>
+            
+            <div id="errorMessage" class="error-message hidden"></div>
+        </div>
+        
+        <div class="info-section">
+            <h3>What are LCM and HCF?</h3>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h4>Highest Common Factor (HCF/GCD)</h4>
+                    <p>The largest factor that divides two or more integers. For example: HCF of 12, 18, 24 is 6.</p>
+                </div>
+                <div class="info-card">
+                    <h4>Least Common Multiple (LCM)</h4>
+                    <p>The smallest multiple that is divisible by two or more integers. For example: LCM of 12, 18, 24 is 72.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
