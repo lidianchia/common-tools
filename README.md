@@ -29,7 +29,7 @@ An interactive web calculator for finding the Least Common Multiple (LCM) and Hi
 
 ### Live Demo
 
-🌐 [Try the Calculator](https://your-username.github.io/common-tools/)
+🌐 [Try the Calculator](https://lidianchia.github.io/common-tools/)
 
 ### Technologies Used
 
@@ -48,7 +48,7 @@ An interactive web calculator for finding the Least Common Multiple (LCM) and Hi
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/common-tools.git
+   git clone https://github.com/lidianchia/common-tools.git
    ```
 
 2. Open `index.html` in your web browser
